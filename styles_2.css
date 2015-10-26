@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+/* Menu top */
+nav #homepage, nav p, nav ul{
+    display: inline-block;
+    top: 40px;
+    letter-spacing: 1px;
+    font-size: 12px;
+    position: fixed;
+}
+
+nav ul {
+    width: 100%;
+    text-align: center;
+    word-spacing: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a#homepage{
+    left: 50px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+nav p#caption{
+    right: 50px;
+}
+
+/* Menu top styling links */
+a:link {
+    color: #121212;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #121212;
+}
+
+a:hover {
+    color: #121212;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #121212;
+    text-decoration: underline;
+}
+
+
+/* Divs with projects - main page */
+div.container {
+    width: 900px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+}
+
+div#element1 {
+    display: inline-block;
+    float:right;
+}
+
+div#element2{
+    display: inline-block;
+    padding: 80px 20px 20px 20px;
+    float: left;
+}
+
+div#element3{
+    display: inline-block;
+    float:right;
+}
+
+div#element4{
+    display: inline-block;
+    padding: 50px 20px 100px 60px;
+    float:left;
+}
+
+/* Strona projektu */
+
+div.projekt {
+    width: 900px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.projekt p{
+    font-size: 11px;
+    font-weight: normal;
+    letter-spacing: 0.75px;
+    width: 15%;
+    display: inline-block;
+    position: fixed;
+    left: 50px;
+}
+
+div.projekt img {
+    float: right;
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+
+/* Contact */
+
+div.contact {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+}
+
+div.contact p{
+    margin-right: 50%;
+}
+
+/* About */
+
+div.about_container{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+
+div.about_container p{
+    width: 400px;
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+}
+
+div.about_container a:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+div img {
+    float: right;
+    display: inline-block;
+}
+
+div.info {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}
+
+.info td{
+    width: 30%;
+    vertical-align: top;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    letter-spacing: 1px;
+}
+
+.info td h5 {
+    font-size: 11px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.info td ul li {
+    font-size: 11px;
+    letter-spacing: 1px;
+    list-style-position: inside;
+    list-style-type: circle;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* Footer */
+
+.footer {
+    bottom: 10px;
+    padding: 20px 0px 10px 0px;
+    position: static;
+    clear:both;
+    font-size: 11px;
+    color: #121212;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
