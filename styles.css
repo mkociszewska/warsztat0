@@ -4,7 +4,7 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 /* Menu top */
-nav #homepage, nav p, nav ul{
+nav .homepage, nav p, nav ul{
     display: inline-block;
     top: 40px;
     letter-spacing: 1px;
@@ -24,13 +24,13 @@ nav ul li {
     display: inline;
 }
 
-nav a#homepage{
+nav a.homepage{
     left: 50px;
     font-weight: 600;
     display: inline-block;
 }
 
-nav p#caption{
+nav p.caption{
     right: 50px;
 }
 
@@ -65,23 +65,23 @@ div.container {
     letter-spacing: 0.8px;
 }
 
-div#element1 {
+div.element1 {
     display: inline-block;
     float:right;
 }
 
-div#element2{
+div.element2{
     display: inline-block;
     padding: 80px 20px 20px 20px;
     float: left;
 }
 
-div#element3{
+div.element3{
     display: inline-block;
     float:right;
 }
 
-div#element4{
+div.element4{
     display: inline-block;
     padding: 50px 20px 100px 60px;
     float:left;
